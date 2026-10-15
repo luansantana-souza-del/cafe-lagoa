@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #235852;
+  --color-primary-hover: #1a433e;
+
+  --color-bg-hero: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-middle: #f4f5f4;
+  --color-bg-footer: #1d2220;
+  --color-bg-placeholder: #e1e7e5;
+
+  --color-text-main: #1c1f1e;
+  --color-text-secondary: #5e6562;
+  
+    --font-family-base: 'Inter', 'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif;
+    
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+  }
+  
+  body {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text-main);
+  }
